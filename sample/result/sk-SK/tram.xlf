@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1" xmlns="urn:oasis:names:tc:xliff:document:1.1">
+  <file datatype="plaintext" original="iOS" source-language="en-US" target-language="sk-SK">
+    <body>
+      <trans-unit approved="yes" id="name">
+        <source>Tram for iOS</source>
+        <target state="translated">Električka pre iOS</target>
+      </trans-unit>
+      <trans-unit approved="yes" id="description">
+        <source>A tram (also known as tramcar; and in North America known as streetcar, trolley or trolley car) is a rail vehicle which runs on tracks along public urban streets, and also sometimes on a segregated right of way.</source>
+        <target state="translated">Električky disponujú oveľa väčšou prepravnou kapacitou ako autobusy či trolejbusy. Pohyb po koľajniciach umožňuje rýchlu a plynulú prepravu cestujúcich alebo nákladu v mestách a ich okolí.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file datatype="plaintext" original="Android" source-language="en-US" target-language="sk-SK">
+    <body>
+      <trans-unit approved="yes" id="name">
+        <source>Tram Android App</source>
+        <target state="translated">Električka pre Android</target>
+      </trans-unit>
+      <trans-unit approved="yes" id="description">
+        <source>A tram (also known as tramcar; and in North America known as streetcar, trolley or trolley car) is a rail vehicle which runs on tracks along public urban streets, and also sometimes on a segregated right of way.</source>
+        <target state="translated">Električka je koľajový dopravný prostriedok (jednoduchší a ľahší ako vlak) prevádzkovaný v mestskej a prímestskej hromadnej doprave.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

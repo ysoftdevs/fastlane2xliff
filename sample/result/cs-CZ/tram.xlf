@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1" xmlns="urn:oasis:names:tc:xliff:document:1.1">
+  <file datatype="plaintext" original="iOS" source-language="en-US" target-language="cs-CZ">
+    <body>
+      <trans-unit approved="yes" id="name">
+        <source>Tram for iOS</source>
+        <target state="translated">Šalina pro iOS</target>
+      </trans-unit>
+      <trans-unit approved="yes" id="description">
+        <source>A tram (also known as tramcar; and in North America known as streetcar, trolley or trolley car) is a rail vehicle which runs on tracks along public urban streets, and also sometimes on a segregated right of way.</source>
+        <target state="translated">V brněnském hantecu se tramvaji říká šalina (zkomolením německého slovního spojení elektrische Linie [elektryše líne][1]) nebo šmirgl, naproti tomu v Ostravě se běžně užívá výraz tramvajka.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file datatype="plaintext" original="Android" source-language="en-US" target-language="cs-CZ">
+    <body>
+      <trans-unit approved="yes" id="name">
+        <source>Tram Android App</source>
+        <target state="translated">Šalina pro Android</target>
+      </trans-unit>
+      <trans-unit approved="yes" id="description">
+        <source>A tram (also known as tramcar; and in North America known as streetcar, trolley or trolley car) is a rail vehicle which runs on tracks along public urban streets, and also sometimes on a segregated right of way.</source>
+        <target state="translated">Šalina je v dnešní terminologii vozidlo nebo vlak tramvajové dráhy.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
