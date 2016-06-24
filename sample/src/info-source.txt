@@ -1,0 +1,5 @@
+Content of sample files is based on Wikipedia articles:
+
+- https://en.wikipedia.org/wiki/Tram
+- https://cs.wikipedia.org/wiki/Tramvaj
+- https://sk.wikipedia.org/wiki/Elektri%C4%8Dka
