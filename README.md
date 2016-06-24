@@ -3,6 +3,8 @@
 Simple Python tool which can convert fastlane version of resources stored in files into XLIFF.
 This version of tool was tested with Python 2.7 and Trados.
 
+You can find more information about fastlane at: https://fastlane.tools/
+
 ## Usage
 
 `python bin/fastlane2xliff.py <soure-directory> <target-xliff-file> <language-code>`
