@@ -19,13 +19,13 @@ Sample:
 
 ### Conversion from XLIFF to fastlane
 
- python bin/xliff2fastlane.py <source-xliff-file> <target-directory>
+`python bin/xliff2fastlane.py <source-xliff-file> <target-directory>`
 
 Sample:
 
- python bin/xliff2fastlane.py sample/result/cs-CZ/tram.xlf sample/src
+`python bin/xliff2fastlane.py sample/result/cs-CZ/tram.xlf sample/src`
 
- python bin/xliff2fastlane.py sample/result/sk-SK/tram.xlf sample/src
+`python bin/xliff2fastlane.py sample/result/sk-SK/tram.xlf sample/src`
 
 ## Further information
 
