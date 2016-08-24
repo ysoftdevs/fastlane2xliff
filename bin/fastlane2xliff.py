@@ -3,6 +3,7 @@
 # Author: Juraj Michalek - Y Soft RnD - http://www.ysofters.com
 # MIT License - see LICENSE.txt
 
+
 import io
 import os
 import sys
@@ -53,7 +54,8 @@ def parse_resources_for_os(os_name, xliff_element):
     for locale_key in locale_keys:
         name = locale_key
         value = get_file_content(meta_path + "/en-US/" + name + ".txt")
-        target = get_file_content(target_resource_path + "/" + name + ".txt")
+
+        target_file_name = target_resource_path + "/" + name + ".txt"
 
         # Do not include keys for empty resoruces
         if len(value) == 0:
@@ -61,9 +63,11 @@ def parse_resources_for_os(os_name, xliff_element):
 
         xliff_data[name] = {
             'source': value,
-            'target': target
         }
 
+        # Read translated value
+        if os.path.exists(target_file_name):
+            xliff_data[name]['target'] =  get_file_content(target_resource_path + "/" + name + ".txt")
 
     file_element = ET.SubElement(xliff_element, 'file')
     file_element.attrib['source-language'] = 'en-US'
